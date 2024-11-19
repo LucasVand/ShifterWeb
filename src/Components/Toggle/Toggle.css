@@ -1,0 +1,49 @@
+.toggleBG {
+
+    /*background-image: linear-gradient(90deg, #D2DCE6, #D2DCE6, #4B525B);*/
+    background-image: linear-gradient(90deg, var(--secondary), var(--secondary), var(--secondary), var(--primary), var(--primary));
+    background-size: 300% 100%;
+    background-repeat: no-repeat;
+    background-position: 100%;
+
+    border-radius: 3em;
+    color: rgb(168, 168, 168);
+    box-shadow: 2px 2px 6px var(--bottomShadow), -5px -5px 20px var(--topShadow);
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    aspect-ratio: 2/1;
+
+    min-width: 4em;
+    min-height: 2em;
+    margin: 1em;
+
+    transition: background-position 0.5s;
+
+}
+
+.toggleBG.toggled {
+    background-position: 00%;
+}
+
+
+.dot {
+    position: relative;
+    left: -30%;
+    background-color: var(--primary);
+    height: 110%;
+    border-radius: 4em;
+    aspect-ratio: 1/1;
+    box-shadow: 1px 1px 3px var(--bottomShadow), -1px -1px 3px var(--topShadow);
+    transition: left 0.35s cubic-bezier(0.68, -0.35, 0.265, 1.55), background-color 0.4s;
+
+}
+
+.dot.toggled {
+    left: 30%;
+
+
+}

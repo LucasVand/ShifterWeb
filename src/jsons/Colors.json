@@ -1,0 +1,82 @@
+[
+    {
+        "name": "Ice White",
+        "secondary": "#4B525B",
+        "primary": "#D2DCE6",
+        "bottomShadow": "#969696",
+        "topShadow": "#DFEAF6",
+        "id": 0
+    },
+    {
+        "name": "Ivery Cream",
+        "secondary": "#829797",
+        "primary": "#D5D4CE",
+        "bottomShadow": "#969696",
+        "topShadow": "#FFFFFF2D",
+        "id": 1
+    },
+    {
+        "name": "Pale Pink",
+        "secondary": "#90697D",
+        "primary": "#E0DADB",
+        "bottomShadow": "#969696",
+        "topShadow": "#FFFFFF2D",
+        "id": 2
+    },
+    {
+        "name": "Pale Mint",
+        "secondary": "#708389",
+        "primary": "#D3DFDC",
+        "bottomShadow": "#969696",
+        "topShadow": "#E4EEEC",
+        "id": 3
+    },
+    {
+        "name": "Bisque",
+        "secondary": "#9E9079",
+        "primary": "#EBDABD",
+        "bottomShadow": "#969696",
+        "topShadow": "#F5E8D1",
+        "id": 4
+    },
+    {
+        "name": "Milk Chocolate",
+        "secondary": "#BEAB99",
+        "primary": "#5E4838",
+        "bottomShadow": "#312318",
+        "topShadow": "#6A523E",
+        "id": 5
+    },
+    {
+        "name": "Dark Lavender",
+        "secondary": "#5AC0B0",
+        "primary": "#523E5B",
+        "bottomShadow": "#2A1D2F",
+        "topShadow": "#5D4666",
+        "id": 6
+    },
+    {
+        "name": "Midnight Green",
+        "secondary": "#D0DFDC",
+        "primary": "#41504D",
+        "bottomShadow": "#1F2A28",
+        "topShadow": "#485A55",
+        "id": 7
+    },
+    {
+        "name": "Space Gray",
+        "secondary": "#D2A23E",
+        "primary": "#474A51",
+        "bottomShadow": "#272A2D",
+        "topShadow": "#51525A",
+        "id": 8
+    },
+    {
+        "name": "Midnight Blue",
+        "secondary": "#DFDFD7",
+        "primary": "#3D495D",
+        "bottomShadow": "#1F2836",
+        "topShadow": "#465268",
+        "id": 9
+    }
+]

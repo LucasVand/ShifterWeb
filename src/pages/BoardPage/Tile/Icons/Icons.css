@@ -1,0 +1,16 @@
+.icon {
+    animation: iconAppear 0.45s ease-out both;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes iconAppear {
+    0% {
+        scale: 0
+    }
+
+    100% {
+        scale: 1;
+    }
+}

@@ -1,0 +1,283 @@
+[
+    {
+        "name": "A",
+        "locked": false,
+        "levels": [
+            {
+                "number": 1,
+                "layout": "0000,1101,0002,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A1"
+            },
+            {
+                "number": 2,
+                "layout": "1001,0000,0000,2001",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A2"
+            },
+            {
+                "number": 3,
+                "layout": "0100,0000,0000,1202",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A3"
+            },
+            {
+                "number": 4,
+                "layout": "2221,0000,0000,1222",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A4"
+            },
+            {
+                "number": 5,
+                "layout": "1001,0010,0102,1022",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A5"
+            },
+            {
+                "number": 6,
+                "layout": "1000,0000,1101,2001",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A6"
+            },
+            {
+                "number": 7,
+                "layout": "1101,1010,0201,1011",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A7"
+            },
+            {
+                "number": 8,
+                "layout": "1102,0021,0200,1011",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A8"
+            },
+            {
+                "number": 9,
+                "layout": "0110,0220,0220,0110",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A9"
+            },
+            {
+                "number": 10,
+                "layout": "1111,0000,2222,1111",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "A10"
+            }
+        ]
+    },
+    {
+        "name": "B",
+        "locked": true,
+        "levels": [
+            {
+                "number": 1,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "B1"
+            },
+            {
+                "number": 2,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "B2"
+            },
+            {
+                "number": 3,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "B3"
+            },
+            {
+                "number": 4,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "B4"
+            },
+            {
+                "number": 5,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "B5"
+            }
+        ]
+    },
+    {
+        "name": "C",
+        "locked": true,
+        "levels": [
+            {
+                "number": 1,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "C1"
+            },
+            {
+                "number": 2,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "C2"
+            },
+            {
+                "number": 3,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "C3"
+            },
+            {
+                "number": 4,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "C4"
+            },
+            {
+                "number": 5,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "C5"
+            }
+        ]
+    },
+    {
+        "name": "D",
+        "locked": true,
+        "levels": [
+            {
+                "number": 1,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "D1"
+            },
+            {
+                "number": 2,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "D2"
+            },
+            {
+                "number": 3,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "D3"
+            },
+            {
+                "number": 4,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "D4"
+            },
+            {
+                "number": 5,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "D5"
+            }
+        ]
+    },
+    {
+        "name": "E",
+        "locked": true,
+        "levels": [
+            {
+                "number": 1,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "E1"
+            },
+            {
+                "number": 2,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "E2"
+            },
+            {
+                "number": 3,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "E3"
+            },
+            {
+                "number": 4,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "E4"
+            },
+            {
+                "number": 5,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "E5"
+            }
+        ]
+    },
+    {
+        "name": "F",
+        "locked": true,
+        "levels": [
+            {
+                "number": 1,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "F1"
+            },
+            {
+                "number": 2,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "F2"
+            },
+            {
+                "number": 3,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "F3"
+            },
+            {
+                "number": 4,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "F4"
+            },
+            {
+                "number": 5,
+                "layout": "0000,0000,0000,0000",
+                "complete": false,
+                "completedAnimationDone": false,
+                "levelId": "F5"
+            }
+        ]
+    }
+]

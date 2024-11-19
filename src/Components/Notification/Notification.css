@@ -1,0 +1,38 @@
+.notification {
+    position: absolute;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12em;
+    height: 3em;
+
+    background-color: var(--primary);
+    box-shadow: 0.2em 0.2em 0.2em var(--bottomShadow), -0.2em -0.2em 0.2em var(--topShadow);
+    border-radius: 1em;
+    margin-top: 2em;
+    top: 0;
+
+    z-index: 100;
+
+    font-size: 0.8em;
+    font-weight: 600;
+
+    transition: top 0.35s;
+    opacity: 1;
+    user-select: none;
+}
+
+
+.notificationCont {
+    user-select: none;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

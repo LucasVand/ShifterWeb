@@ -1,0 +1,11 @@
+.levelMakerCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.none {
+    display: none;
+    opacity: 0;
+}

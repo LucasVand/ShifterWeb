@@ -1,0 +1,25 @@
+:root {
+  --secondary: #4B525B;
+  --primary: #D2DCE6;
+  --topShadow: #DFEAF6;
+  --bottomShadow: #969696;
+
+
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  font-weight: 500;
+
+  color-scheme: light dark;
+  color: var(--secondary);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--primary);
+
+  overflow: hidden;
+  user-select: none;
+}

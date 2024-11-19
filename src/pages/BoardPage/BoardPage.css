@@ -1,0 +1,27 @@
+.boardPageCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    touch-action: none;
+    user-select: none;
+}
+
+.boardTilesCont {
+    display: grid;
+}
+
+.boardTitle {
+    z-index: -3;
+    font-size: 4em;
+    font-weight: 500;
+    text-align: end;
+}
+
+.boardPageActionBar {
+    display: flex;
+    align-items: space-around;
+    justify-content: center;
+    margin: 1em;
+}

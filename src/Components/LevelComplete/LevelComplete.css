@@ -1,0 +1,64 @@
+.levelCompleteCont {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: -21;
+}
+
+.levelCompleteCont.show {
+    z-index: 1;
+    background-color: rgba(10, 10, 10, 0.4);
+    transition: background-color 0.6s;
+}
+
+.levelComplete {
+    --width: 30em;
+    background-color: var(--primary);
+    width: var(--width);
+    height: 18em;
+    border-radius: 3em 3em 0em 0em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: calc(50% - var(--width)/2);
+    bottom: 0;
+    transition: bottom linear 0.7s;
+
+
+}
+
+
+.levelCompleteStar {
+    font-size: 3em;
+}
+
+.levelCompleteTitle {
+    font-size: 2em;
+
+}
+
+.levelCompleteButton {
+    margin-top: 0.7em;
+    border-style: none;
+    width: 80%;
+    height: 3em;
+    border-radius: 0.5em;
+    background-color: var(--secondary);
+    font-size: 1.5em;
+    font-weight: 400;
+
+    transition: scale 0.35s;
+}
+
+.levelCompleteButton:hover {
+    scale: 1.01;
+}
+
+.levelCompleteButton:active {
+    scale: 0.98;
+}

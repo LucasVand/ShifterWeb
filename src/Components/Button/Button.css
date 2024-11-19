@@ -1,0 +1,88 @@
+.primaryButton {
+
+    width: 0.9em;
+    height: 0.9em;
+    border-radius: 0.20em;
+    margin: 0.1em;
+    padding: 0.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: scale 2s, box-shadow 0.25s, opacity 0.35s;
+
+    border-style: none;
+
+    animation: appearAni 0.35s ease-out both;
+    touch-action: none;
+}
+
+.primaryButton.selected {
+    border-style: solid;
+    border-width: 0.04em;
+    animation: pulse 3s ease-in-out infinite both !important;
+}
+
+.primaryButton.validMoveF {
+    border-style: solid;
+    border-width: 0.04em;
+    border-color: rgba(255, 0, 0, 0.5) !important;
+}
+
+.primaryButton.validMoveT {
+    border-style: solid;
+    border-width: 0.04em;
+    border-color: rgba(0, 128, 0, 0.5) !important;
+}
+
+.primaryButton:hover {
+    scale: 1.03;
+}
+
+.primaryButton.shake {
+    animation: shake 0.4s ease-in-out both !important;
+}
+
+
+@keyframes appearAni {
+    0% {
+        scale: 0;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+@keyframes pulse {
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 1.08;
+    }
+
+    100% {
+        scale: 1;
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    30% {
+        transform: rotate(40deg);
+    }
+
+    70% {
+        transform: rotate(-40deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}

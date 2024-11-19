@@ -1,0 +1,23 @@
+.levelPageCont {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.levelsCont {
+    display: grid;
+}
+
+.levelAreaTitle {
+    font-size: 4em;
+    text-align: end;
+}
+
+.navigationCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+}

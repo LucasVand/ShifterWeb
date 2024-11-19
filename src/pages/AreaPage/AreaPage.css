@@ -1,0 +1,25 @@
+.areaPageCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.areaTitle {
+    font-size: 2em;
+}
+
+.areasCont {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.areasName {
+    font-size: 0.3em;
+    font-family: 'Times New Roman', Times, serif;
+
+}
